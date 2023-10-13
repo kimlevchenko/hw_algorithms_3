@@ -51,9 +51,7 @@ public class IntegerListImpl implements IntegerList {
     @Override
     public Integer remove(Integer item) {
         validateItem(item);
-
         int index = indexOf(item);
-
         return remove(index);
     }
 
